@@ -55,4 +55,3 @@ for v in range(1, u+1):
     for x in range(2*(u-v)+1):
         print('*', end='')
     print()
-    
