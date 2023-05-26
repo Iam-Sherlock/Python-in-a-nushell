@@ -55,3 +55,11 @@ for v in range(1, u+1):
     for x in range(2*(u-v)+1):
         print('*', end='')
     print()
+    
+    
+  
+# triangle program with star imp right opp*
+n = int(input("enter a value : "))
+for i in range(1,n+1):
+    print(" "*(n-i-1)+"*"*(i+1))
+    
