@@ -16,7 +16,7 @@ elif option==2:
   ASCII_art_1 = pyfiglet.figlet_format(U,font='isometric1')
   print(ASCII_art_1)
 else:
-  my_art = AsciiArt.from_image('https://github.com/Iam-Sherlock/Python-in-a-nushell/assets/53529867/cece5244-7595-4972-8a84-ae16a16fa63b')
+  my_art = AsciiArt.from_url('https://github.com/Iam-Sherlock/Python-in-a-nushell/assets/53529867/cece5244-7595-4972-8a84-ae16a16fa63b')
   my_art.to_terminal()
   
   
